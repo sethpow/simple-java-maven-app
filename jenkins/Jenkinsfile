@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job Complete'
             }
         }
+        stage('Log Not Branch') {
+            steps {
+                echo 'New Pipeline'
+            }
+        }
     }
 }
